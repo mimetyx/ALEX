@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://backgrounds/october-1-2019-galaxy-ngc-3949.jpg" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="October-1-2019-galaxy-ngc-3949" type="Sprite" parent="."]
+scale = Vector2( 2, 2 )
+texture = ExtResource( 1 )
+centered = false
