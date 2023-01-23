@@ -34,6 +34,14 @@ window/handheld/orientation="portrait"
 version_control_autoload_on_startup=true
 version_control_plugin_name="GitAPI"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/vnen.tiled_importer/plugin.cfg" )
+
+[gdnative]
+
+singletons=[  ]
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
@@ -48,3 +56,7 @@ quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
 environment/default_environment="res://scenes/default_env.tres"
+
+[tiled_importer]
+
+enable_json_format=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="vnen.tiled_tileset_importer"
+type="TileSet"
+path="res://.import/scifi-B.tsx-27360407f2f33367d14125622ce5bd5c.res"
+
+[deps]
+
+source_file="res://tilemaps/scifi-B.tsx"
+dest_files=[ "res://.import/scifi-B.tsx-27360407f2f33367d14125622ce5bd5c.res" ]
+
+[params]
+
+custom_properties=true
+tile_metadata=false
+image_flags=7
+embed_internal_images=false
+save_tiled_properties=false
+post_import_script=""
