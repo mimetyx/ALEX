@@ -8,9 +8,9 @@ extends Node
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	var camera = $Camera2D
+	var player_start = $scifi_map/Locations/PlayerStart
+	var _zoof = player_start.position.x
+	camera.position.x = player_start.position.x
+	camera.position.y = player_start.position.y
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
