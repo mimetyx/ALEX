@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/october-1-2019-galaxy-ngc-3949.jpg-716b656b71165327a194a019bee61a77.stex"
+path="res://.import/survivor1_gun.png-be1e09eac67b14a178793f17d71f5db9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://backgrounds/october-1-2019-galaxy-ngc-3949.jpg"
-dest_files=[ "res://.import/october-1-2019-galaxy-ngc-3949.jpg-716b656b71165327a194a019bee61a77.stex" ]
+source_file="res://sprites/survivor1_gun.png"
+dest_files=[ "res://.import/survivor1_gun.png-be1e09eac67b14a178793f17d71f5db9.stex" ]
 
 [params]
 

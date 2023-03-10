@@ -1,16 +1,8 @@
 extends Node
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	var _obj_layer: TileMap = get_node("/root/Game/ObjectLayer")
+	var _rect: Rect2 = _obj_layer.get_used_rect()
+	$Player.position = _obj_layer.map_to_world(_rect.get_center()) 
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
